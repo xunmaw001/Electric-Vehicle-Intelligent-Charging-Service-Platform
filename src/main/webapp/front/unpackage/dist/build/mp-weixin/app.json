@@ -1,0 +1,102 @@
+{
+  "pages": [
+    "pages/login/login",
+    "pages/register/register",
+    "pages/forget/forget",
+    "pages/center/center",
+    "pages/user-info/user-info",
+    "pages/news-detail/news-detail",
+    "pages/yonghu/list",
+    "pages/yonghu/add-or-update",
+    "pages/yonghu/detail",
+    "pages/chongdianzhuang/list",
+    "pages/chongdianzhuang/add-or-update",
+    "pages/chongdianzhuang/detail",
+    "pages/dianchishangpin/list",
+    "pages/dianchishangpin/add-or-update",
+    "pages/dianchishangpin/detail",
+    "pages/tuosongfuwu/list",
+    "pages/tuosongfuwu/add-or-update",
+    "pages/tuosongfuwu/detail",
+    "pages/wodeqianbao/list",
+    "pages/wodeqianbao/add-or-update",
+    "pages/wodeqianbao/detail",
+    "pages/chongzhixinxi/list",
+    "pages/chongzhixinxi/add-or-update",
+    "pages/chongzhixinxi/detail",
+    "pages/xiaofeixinxi/list",
+    "pages/xiaofeixinxi/add-or-update",
+    "pages/xiaofeixinxi/detail",
+    "pages/goumaidingdan/list",
+    "pages/goumaidingdan/add-or-update",
+    "pages/goumaidingdan/detail",
+    "pages/peisongxinxi/list",
+    "pages/peisongxinxi/add-or-update",
+    "pages/peisongxinxi/detail",
+    "pages/fuwudingdan/list",
+    "pages/fuwudingdan/add-or-update",
+    "pages/fuwudingdan/detail",
+    "pages/storeup/list",
+    "pages/storeup/add-or-update",
+    "pages/storeup/detail",
+    "pages/news/list",
+    "pages/news/add-or-update",
+    "pages/news/detail",
+    "pages/discusschongdianzhuang/list",
+    "pages/discusschongdianzhuang/add-or-update",
+    "pages/discusschongdianzhuang/detail",
+    "pages/discussdianchishangpin/list",
+    "pages/discussdianchishangpin/add-or-update",
+    "pages/discussdianchishangpin/detail",
+    "pages/discusstuosongfuwu/list",
+    "pages/discusstuosongfuwu/add-or-update",
+    "pages/discusstuosongfuwu/detail",
+    "pages/pay-confirm/pay-confirm",
+    "pages/map/index",
+    "pages/index/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "电动车智能充电服务平台",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#BBBBBB",
+    "selectedColor": "#CCAA8F",
+    "borderStyle": "white",
+    "backgroundColor": "#FFFFFF",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "static/tabs/index.png",
+        "selectedIconPath": "static/tabs/index1.png",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/wodeqianbao/list",
+        "iconPath": "/static/tabs/icon1.png",
+        "selectedIconPath": "/static/tabs/icon1_act.png",
+        "text": "我的钱包"
+      },
+      {
+        "pagePath": "pages/map/index",
+        "iconPath": "/static/tabs/map.png",
+        "selectedIconPath": "/static/tabs/map_act.png",
+        "text": "地图"
+      },
+      {
+        "pagePath": "pages/center/center",
+        "iconPath": "static/tabs/mine.png",
+        "selectedIconPath": "static/tabs/mine1.png",
+        "text": "我的"
+      }
+    ]
+  },
+  "usingComponents": {
+    "uni-load-more": "/components/mescroll-uni/mescroll-uni",
+    "mescroll-uni": "/components/mescroll-uni/mescroll-uni",
+    "uni-popup": "/components/uni-popup/uni-popup"
+  }
+}
